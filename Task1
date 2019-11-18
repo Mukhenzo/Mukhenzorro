@@ -1,0 +1,639 @@
+#include <iostream>
+using namespace std;
+int main(){
+cout<<"Silence is golden";
+}
+#include <iostream>
+using namespace std;
+int main(){
+cout<<"Vtornik"<<endl;
+cout<<"Noyabr'"<<endl;
+cout<<"Nurmukhamed";
+}
+#include <iostream>
+using namespace std;
+int main(){
+for(int i=0; i<5; i++){
+    for(int j=0; j<i+1; j++){
+    cout<<"0";
+}
+cout<<endl;
+}}
+#include <iostream>
+using namespace std;
+int main(){
+for(int i=0; i<8; i++){
+    for(int j=0; j<5; j++){
+    cout<<"A";
+}
+cout<<endl;
+}}
+#include <iostream>
+using namespace std;
+int main(){
+cout<<"*"<<" "<<" "<<" "<<" "<<" "<<"*"<<" "<<" "<<" "<<" "<<" "<<"*"<<endl;
+cout<<" "<<"*"<<" "<<" "<<" "<<"*"<<" "<<"*"<<" "<<" "<<" "<<"*"<<endl;
+cout<<" "<<" "<<"*"<<" "<<"*"<<" "<<" "<<" "<<"*"<<" "<<"*"<<endl;
+cout<<" "<<" "<<" "<<"*"<<" "<<" "<<" "<<" "<<" "<<"*";
+}
+#include <iostream>
+using namespace std;
+int main(){
+cout<<1+2-4;
+}
+#include <iostream>
+using namespace std;
+int main(){
+    
+cout<<0.5+0.25;
+}
+#include <iostream>
+using namespace std;
+int main(){
+    int a,b,c;
+    a=2;
+    b=3;
+    c=(a+4*b)*(a-3*b)+a*a;
+    cout<<c;
+}
+#include <iostream>
+#include <math.h>
+#include <cmath>
+using namespace std;
+int main(){
+    float x;
+    int c;
+   x=-2;
+   c=fabs(x)+pow(x,5);
+    cout<<c;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    double x,c;
+    x=1.7;
+    c=pow((x+1),2)+3*(x+1);
+    cout<<c<<endl;
+    x=3;
+    c=pow((x+1),2)+3*(x+1);
+    cout<<c;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b;
+   cin>>a>>b;
+   cout<<a*b<<" "<<a+b;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a;
+   cin>>a;
+   cout<<pow(a,2)<<" "<<pow(a,3);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b,c;
+   cin>>a>>b>>c;
+  a=a*2;
+  b=b-3;
+  c=pow(c,2);
+  cout<<a+b+c;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b,c;
+   cin>>a>>b>>c;
+  cout<<((a+b+c)/3)<<endl;
+  cout<<((a*2)-c)<<endl;
+  cout<<((a*2)-3*b);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a;
+   cin>>a;
+   cout<<4*a<<endl;
+   cout<<pow(a,2);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b;
+   cin>>a>>b;
+   cout<<((300*a)/1000)<<" "<<((400*b)/1000)<<endl;
+  cout<<(2*b)<<" "<<((1800*a)/1000)<<endl;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   double a;
+   cin>>a;
+   cout<<a/3.6;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b;
+   cin>>a>>b;
+   cout<<"P"<<2*(a+b)<<endl;
+   cout<<"S"<<((a*b)/2)<<endl;
+   cout<<"G"<<pow((pow(a,2)+pow(b,2)), 0.5);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b;
+   cin>>a;
+   cout<<(a*1.8)+32;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int x,y,k,a;
+   cin>>x>>a>>y>>k;
+   cout<<((y*a)/x)<<endl;
+   cout<<((k*x)/a);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int d,p,s,a,b;
+   cin>>d>>p>>s;
+   a=((d*3)+s);
+   b=(a*(100-p))/100;
+   cout<<a-b;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int m,w,y;
+   cin>>m>>w>>y;
+   cout<<(y*365)+(m*30)+(w*7);
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+   int a,b,c;
+   cin>>a>>b;
+   c=a;
+   a=b;
+   b=c;
+   cout<<a<<" "<<b;
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+   int a,b,c,x,y,z;
+   cin>>a>>b>>c;
+   x=a;
+   y=b;
+   z=c;
+   a=x+y;
+     b=z-x;
+
+   c=x+y+z;
+   cout<<a<<" "<<b<<" "<<c;
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+   int a,b,p;
+   cin>>a>>b;
+   for(int i=0; i<5; i++){
+     p=((a*b)/100);
+     a=a+p;
+   }
+   cout<<a;
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+   int a,b;
+   cin>>a>>b;
+ a=a-b;
+b=b+a;
+a=b-a;
+   cout<<a<<" "<<b;
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+   int a;
+   cin>>a;
+   cout<<a*a*a*a<<" "<<a*a*a*a*a*a<<" "<<a*a*a*a*a*a*a*a*a*a*a*a*a*a*a;
+
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+int a,b,s;
+a=647*170;
+b=30*30;
+cout<<a/b;
+
+}
+#include <iostream>
+
+using namespace std;
+int main(){
+int a,x,y,z;
+a=237;
+x=a/100;
+y=a-(x*100);
+cout<<(y*10)+x;
+
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+float x,y,a,b;
+cin>>x>>y;
+a=sqrt(x);
+b=sqrt(y);
+int c,d;
+c=a;
+d=b;
+if((a==c)&&(d==b)){
+  cout<<sqrt(x+sqrt(y));
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if(x>3){
+  x=x+10;
+}
+else{
+  x=x-10;
+}
+cout<<x;}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if(x<7){
+cout<<"Yes";
+}
+if (x>10){
+  cout<<"No";
+}
+if(x==9){
+  cout<<"Error";
+}
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if(x==1){
+  cout<<"January";
+}
+if(x==2){
+  cout<<"February";
+}0
+if(x==3){
+  cout<<"March";
+}
+if(x==4){
+  cout<<"April";
+}
+if(x==5){
+  cout<<"May";
+}
+if(x==6){
+  cout<<"June";
+}
+if(x==7){
+  cout<<"July";
+}
+if(x==8){
+  cout<<"August";
+}
+if(x==9){
+  cout<<"September";
+}
+if(x==10){
+  cout<<"October";
+}
+if(x==11){
+  cout<<"November";
+}
+if(x==12){
+  cout<<"December";
+}
+
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y;
+cin>>x>>y;
+if(x>y){
+  cout<<x;
+}
+else cout<<y;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y;
+cin>>x>>y;
+if((x-y>=100)||(y-x>=100)){
+  cout<<"Yes";
+}
+else cout<<"No";
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,c;
+cin>>x>>y;
+if(x>y){
+  cout<<"Yes";
+}
+else {
+  c=x;
+  x=y;
+  y=c;
+  cout<<x<<" "<<y;
+  
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if((-10<x)&&(x<10)){
+  cout<<x+5;
+}
+else {
+ cout<<x-5;
+  
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if((-100>=x)||(x>=100)){
+  x=0;
+  cout<<x;
+}
+else {
+ cout<<x+1;
+  
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x;
+cin>>x;
+if((2<=x)&&(x<=5)){
+  x=x+5;
+  cout<<x;
+}
+if((7<=x)&&(x<=40)){
+  x=x-100;
+  cout<<x;
+}
+if(0>=x)||(x>3000)){
+  x=x*3;
+  cout<<x;
+}
+else {
+  x=0;
+ cout<<x;
+  
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y;
+cin>>x>>y;
+if((x!=10)&&(x!=10)&&(x%2==0)){
+  cout<<x+y;
+}
+else{
+  cout<<x*y;
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z;
+cin>>x>>y>>z;
+if((x>10)&&(y>10)&&(z>10)&&(x%3==0)&&(y%3==0)){
+  cout<<"Yes"<<endl;
+  
+}
+else{
+  cout<<"No"<<endl;
+}}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z,a=0,b=0,c=0,d;
+cin>>x>>y>>z;
+if((x%5!=0)&&(y%5!=0)&&(z%5!=0)){
+  cout<<"error";
+  return 0;
+}
+if(x%5==0){
+a=x;
+}
+if(y%5==0){
+b=y;
+}
+if(z%5==0){
+c=z;
+}
+cout<<a+b+c;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z;
+cin>>x>>y>>z;
+if((x>y)&&(x>z)){
+  cout<<x;
+}
+if((y>x)&&(y>z)){
+  cout<<y;
+}
+if((z>y)&&(z>x)){
+  cout<<z;
+}
+
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z;
+cin>>x>>y>>z;
+if((x>y)&&(x>z)){
+ if(y>z){
+   cout<<x<<" "<<y;
+ }
+ else{
+   cout<<x<<" "<z;
+ } 
+}
+if((y>x)&&(y>z)){
+ if(x>z){
+   cout<<x<<" "<<y;
+ }
+ else{
+   cout<<y<<" "<<z;
+ } 
+}
+if((z>y)&&(z>x)){
+if(y>x){
+   cout<<z<<" "<<y;
+ }
+ else{
+   cout<<y<<" "<<z;
+ } 
+}
+
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z,a,count=0,max;
+int arr[3];
+cin>>x>>y>>z>>a;
+if(x%2==0){
+  arr[count]=x;
+  count++;
+}
+if(y%2==0){
+  arr[count]=y;
+  count++;
+}
+if(z%2==0){
+  arr[count]=z;
+  count++;
+}
+if(a%2==0){
+  arr[count]=a;
+  count++;
+}
+max=arr[0];
+for(int i=0; i<count+1; i++){
+  if(arr[i]<arr[i+1]){
+    max=arr[i+1];
+  }
+  }
+cout<<max;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z;
+cin>>x>>y>>z;
+if((x==y)||(x==z)||(y==z)){
+  cout<<"yes";
+}
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z;
+cin>>x>>y>>z;
+if((x+y==z)||(x+z==y)||(y+z==x)){
+  cout<<"yes";
+}
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z,a;
+cin>>x>>y>>z>>a;
+if((x>5)&&(y>5)&&(z%6==0)&&(a%3!=0){
+  cout<<"yes";
+}
+else{
+  cout<<"no";
+}
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z,a;
+cin>>x>>y>>z>>a;
+if((x>30)||(y>30){
+  cout<<"yes";
+}
+else{
+  cout<<"no";
+}
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+int x,y,z,a;
+cin>>x>>y>>z;
+if(x<5){
+  a++;
+}
+if(y<5){
+  a++;
+}
+if(z<5){
+  a++;
+}
+if(a==2){
+  cout<<"yes";
+}
+else{
+  cout<<"no";
+}
+}
+
+
